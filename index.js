@@ -6,7 +6,7 @@ const imgRouter=require('./routes/img.router')
 server.use(express.json())
 
 
-server.listen(8000,()=>{
+server.listen(3000,()=>{
     console.log(process.env.Dbname);
         console.log('server running...');
 })
